@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galeri Kuningan</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#fff;margin:0;color:#111}
+    header{background:#0b6b6b;color:#fff;padding:14px}
+    nav a{color:#fff;margin-right:12px;text-decoration:none}
+    .grid{max-width:1000px;margin:18px auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
+    .card{border-radius:10px;overflow:hidden;box-shadow:0 6px 14px rgba(10,10,10,0.06);background:#f8fafc}
+    .card img{width:100%;height:170px;object-fit:cover;display:block}
+    .caption{padding:10px}
+    footer{color:#666;text-align:center;padding:18px;margin-top:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <nav style="max-width:1000px;margin:0 auto;">
+      <a href="index.html">Home</a>
+      <a href="sejarah.html">Sejarah</a>
+      <a href="wisata.html">Wisata</a>
+      <a href="galeri.html">Galeri</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="grid">
+      <div class="card">
+        <!-- Ganti src dengan URL gambar yang valid atau file lokal -->
+        <img src="1.jpg"alt="Gunung Ciremai">
+        <div class="caption"><strong>Gunung Ciremai</strong><div style="color:#666">Pemandangan dari ketinggian.</div></div>
+      </div>
+
+      <div class="card">
+        <img src="talagaciberem.jpg"alt="Telaga Cicerem">
+        <div class="caption"><strong>Telaga Cicerem</strong><div style="color:#666">Telaga berwarna biru.</div></div>
+      </div>
+
+      <div class="card">
+        <img src="curugputri.jpg" alt="Curug Putri Palutungan">
+        <div class="caption"><strong>Curug Putri Palutungan</strong><div style="color:#666">Air terjun dan hutan </div></div>
+        <div class="card">
+          <img src="cipari.jpg"alt="Taman Purbakala Cipari">
+        <div class="caption"><strong>Taman Purbakala Cipari</strong><div style="color:#666">Situs purbakala.</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Ganti placeholder di atas dengan foto-foto asli bila Anda memiliki gambar lokal.</footer>
+</body>
+</html>
